@@ -47,9 +47,8 @@
         #scrollContent{
             width:838px;
             height: 300px;
-            overflow: scroll;
+            overflow: auto;
         }
-
     </style>
 </head>
 <body>
