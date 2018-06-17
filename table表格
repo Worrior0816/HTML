@@ -9,66 +9,60 @@
             border-collapse:collapse;
             width:820px;
             table-layout:fixed;
-            word-break: break-all;
-            word-wrap: break-word;
+            border-bottom: 0px;
+           /* word-break: break-all;
+            word-wrap: break-word;*/
+        }
+        table .col1{
+            width: 30px;
+        }
+        table .col2{
+            width: 20px;
+        }
+        table .col3{
+            width: 120px;
+        }
+        table .col4{
+            width: 200px;
+        }
+        table .col5{
+            width: 150px;
+        }
+        table .col6{
+            width: 180px;
+        }
+        table .col7{
+            width: 120px;
         }
         table th
         {
             border:1px solid black;
             text-align: left;
+            height: 20px;
+            border-bottom: 0px;
         }
-        /* table
-        {
-        border: 1px solid black;
-        border-collapse:collapse;
-        width:984px;
-        table-layout:fixed;
+        table.result-list{
+            border-bottom: 1px solid black;
         }
-         */
+        #scrollContent{
+            width:838px;
+            height: 300px;
+            overflow: scroll;
+        }
+
     </style>
 </head>
 <body>
-<!-- <table width="100%" border="1" >
-  <col width="20px" />
-  <col width="10px" />
-  <col width="100px" />
-  <col width="100px" />
-  <col width="100px" />
-  <col width="100px" />
-  <tr>
-    <th>999</th>
-    <th><input type="checkbox"></th>
-    <th>利用者ID</th>
-	<th>利用者氏名</th>
-	<th>所属</th>
-	<th></th>
-  </tr>
-  <tr>
-	<th>システム（サブシステム）</th>
-	<th>業務権限</th>
-	<th>検索氏名権限</th>
-	<th></th>
-	<th></th>
-	<th></th>
-  </tr>
-  <tr>
-    <th>利用開始日～利用終了日</th>
-	<th>付与者ID</th>
-	<th>付与者氏名（漢字）</th>
-	<th>付与日付</th>
-	<th></th>
-	<th></th>
-  </tr>
-</table> -->
 
+<div>
 <table>
-    <col width="30px"/>
-    <col width="20px"/>
-    <col width="120px"/>
-    <col width="200px"/>
-    <col width="150px"/>
-    <col width="180px"/>
-    <col width="120px"/>
+    <col class="col1"/>
+    <col class="col2"/>
+    <col class="col3"/>
+    <col class="col4"/>
+    <col class="col5"/>
+    <col class="col6"/>
+    <col class="col7"/>
     <tr>
         <th rowspan="3">999</th>
         <th rowspan="3"><input type="checkbox"></th>
@@ -89,6 +83,147 @@
         <th>付与者氏名（漢字）</th>
         <th>付与日付</th>
     </tr>
+
 </table>
+</div>
+<div id="scrollContent">
+    <table class="result-list">
+        <col class="col1"/>
+        <col class="col2"/>
+        <col class="col3"/>
+        <col class="col4"/>
+        <col class="col5"/>
+        <col class="col6"/>
+        <col class="col7"/>
+        <tr>
+            <th>1</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>2</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>3</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>4</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>5</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>6</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>7</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>8</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>9</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>10</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>11</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>12</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>13</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>14</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+
+
+    </table>
+</div>
 </body>
 </html>
